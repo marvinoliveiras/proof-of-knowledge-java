@@ -31,7 +31,7 @@ public class ProofOfKnowledgePrinter {
                 );
             }else{
                 System.out.printf(
-                    "Unfortunately you got %d%% and failed.\n",
+                    "Unfortunately you got %s%% and failed.\n",
                     proofOfKnowledge.getScore()
                 );
             }
